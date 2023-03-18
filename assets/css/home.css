@@ -1,0 +1,35 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav.navbar a{
+    margin-right: 20px;
+}
+.about{
+    background-color: lightskyblue;
+    text-align: justify;
+   
+
+}
+.about img{
+    width: 300px;
+    margin:5px auto;
+}
+#about p{
+    text-indent: 5%;   
+}
+#skills a.resume{
+    text-decoration: none;
+    
+}
+#skills h2, #skills p{
+    width: 50%;
+    margin: 10px auto;
+}
+#skills p{
+    text-align: left;
+}
+@media screen {
+
+    
+}
