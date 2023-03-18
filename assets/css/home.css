@@ -28,6 +28,14 @@ nav.navbar a{
 #skills p{
     text-align: left;
 }
+form{
+    border: 1px solid salmon;
+}
+#contact{
+    text-align: center;
+    width: 100%;
+    box-shadow: rgba(66, 38, 38, 0.651);
+}
 @media screen {
 
     
