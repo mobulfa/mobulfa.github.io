@@ -1,6 +1,5 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
 
 nav.navbar a{
     margin-right: 20px;
