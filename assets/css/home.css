@@ -7,9 +7,6 @@ nav.navbar a{
 nav.navbar a:hover{
     background-color: rgba(0, 0, 0, 0.15);
 }
-nav.navbar a:active{
-    background-color: beige;
-}
 
 .about{
     background-color: lightskyblue;
