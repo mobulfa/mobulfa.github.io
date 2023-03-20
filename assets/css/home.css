@@ -42,4 +42,10 @@ nav.navbar a{
     height: 80px;
     margin-top: 15px;
 }
+#skilloverview .card{
+    box-shadow: 0px 10px 15px rgba(66, 38, 38, 0.651);
+}
+.card-body i{
+    font-size: 50px;
+}
 
