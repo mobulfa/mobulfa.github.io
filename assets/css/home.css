@@ -4,6 +4,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 nav.navbar a{
     margin-right: 20px;
 }
+nav.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+#navbarSupportedContent a:active{
+    background-color: beige;
+}
 
 .about{
     background-color: lightskyblue;
