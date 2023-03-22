@@ -1,4 +1,9 @@
-* {font-family: "Roboto", sans-serif}
+* {font-family: "Roboto", sans-serif
+
+}
+body{
+    transition: ease-in-out;
+}
 
 
 nav.navbar a{
