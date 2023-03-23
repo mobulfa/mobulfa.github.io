@@ -77,20 +77,13 @@ nav.navbar a:hover{
     text-align: left;
 }
 
-#contact form{
-    text-align: center;
-    width: 50%;
-    box-shadow: rgba(66, 38, 38, 0.651);
-    border: 1px solid salmon;
-  
-}
-.profile-small{
-    width: 80px;
-    height: 80px;
-    margin-top: 15px;
-}
 #skilloverview .card{
     box-shadow: 0px 10px 15px rgba(66, 38, 38, 0.651);
+    background: linear-gradient(
+        45deg,
+        hsla(209, 85%, 52%, 0.5),
+        hsla(192, 88%, 45%, 0.5) 100%
+      );
 }
 .card-body i{
     font-size: 50px;
@@ -103,5 +96,27 @@ nav.navbar a:hover{
 #email{
     color: blue;
  
+}
+.contact-icons{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+   
+}
+.contact-icons a{
+    padding: 10px;
+}
+#contact form{
+    text-align: center;
+    width: 50%;
+    box-shadow: rgba(66, 38, 38, 0.651);
+    border: 1px solid salmon;
+  
+}
+.profile-small{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+
 }
 
