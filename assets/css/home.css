@@ -3,24 +3,63 @@
 
 nav.navbar a{
     margin-right: 20px;
+    text-transform: uppercase;
 }
 nav.navbar a:hover{
     background-color: rgba(0, 0, 0, 0.15);
 }
-
+#home{
+    background-color: lightskyblue;
+}
+.profileText{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    margin-left: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    }
+    .profileText .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
 .about{
+    
     background-color: lightskyblue;
     text-align: justify;
    
 
 }
-.about img{
+#about img{
     width: 300px;
-    margin:10px auto;
+    
+    margin-left: 50px;
 }
-#about p{
-    text-indent: 5%;   
+.dropcap{
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    position: relative;
+    top: -0.35em;
+    margin-bottom: -0.8em;
+    margin-left: -6px;
+    /* margin-right: 1px; */
+    font-size: 100px;
+    color: black;
 }
+
 #skills a.resume{
     text-decoration: none;
     
