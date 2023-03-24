@@ -15,10 +15,22 @@ nav.navbar a{
 nav.navbar a:hover{
     background-color: rgba(0, 0, 0, 0.15);
 }
+#navbarSupportedContent .active{
+    background: linear-gradient(
+        45deg,
+        hsla(209, 85%, 52%, 0.5),
+        hsla(192, 88%, 45%, 0.5) 100%
+      );
+}
 #home{
     background-color: lightskyblue;
 }
-.profileText{
+#home a{
+    position: relative;
+    text-align: left;
+    margin: auto;
+}
+.w3-display-container{
     position: relative;
     display:flex;
     flex-direction: column;
@@ -26,21 +38,21 @@ nav.navbar a:hover{
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,.2);
 }
-.profileText .imgBx{
+ .w3-display-container .imgBx{
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    }
-    .profileText .imgBx img{
+    margin: 30px 80px;
+     }
+.w3-display-container .imgbx img{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        
+        object-fit: cover;  
     }
 .about{
     
@@ -50,9 +62,14 @@ nav.navbar a:hover{
 
 }
 #about img{
-    width: 300px;
-    
+    width: 300px;  
     margin-left: 50px;
+    filter:sepia(100%);
+    -webkit-filter: sepia(100%);
+}
+#about img:hover{
+   
+    filter:sepia(0);
 }
 .dropcap{
     padding-left: 5px;
@@ -120,5 +137,10 @@ nav.navbar a:hover{
     height: 80px;
     margin-top: 20px;
 
+}
+
+#recentprojects{
+   margin: auto;
+   
 }
 
