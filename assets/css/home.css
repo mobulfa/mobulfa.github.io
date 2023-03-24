@@ -4,8 +4,6 @@
 body{
     transition: ease-in-out;
 }
-
-
 nav.navbar a{
     margin-right: 20px;
 }
