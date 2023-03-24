@@ -14,7 +14,7 @@
    
     <title>MOBulfa Portfolio</title>
 </head>
-<body>
+<body onload="document.body.style.opacity='1'">
     <!-- Navigation Pane -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
@@ -24,12 +24,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
-              <!-- <li class="nav-item">
-                <a class="nav-link active"  href="index.html">Home</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link active"  href="#about">About</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link active"  href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="about.html">About</a>
+                  </li>
               <li class="nav-item">
                 <a class="nav-link"   href="resume.html">Online Resume</a>
               </li>
@@ -48,140 +48,22 @@
           </div>
         </div>
       </nav>
-      <!-- <section class="index section-padding" id="home">
-        <header>
-          <div class="header-intro text-white py-5 col-12 col-xs">
-            <div class="container">
-           <h2 class="mb-0">Home</h2> 
-                <div class="row">
-                  <div class="profileText">
-                    <div class="imgBx">
-                      <img src="assets/img/gensan4.jpg" class="img-thumbnail rounded-circle" alt="My Home Pic">
-                    </div>
-                  </div>
+      <!-- Hero Section -->
+      
+ 
+      <div class="hero-image container-fluid">
+        <img style="width: 100%;" src="assets/img/banner1.jpg" alt="">
+        <div class="hero-text">
+            <img class="profile-small" src="assets/img/avatar.png" alt="">
+            <h1>MANUELITO BULFA</h1>
+            <p>WEB Developer</p>  
+                <div class="animated-div col-md-12" style="width: fit-content;">
+                <a href="about.html" class="btn btn-warning annimated-div">More about Me</a>
                 </div>
-            </div>
-          </div>
-        </header>
-      </section> -->
-
-    <!--About Section-->
-    <section class="about section-padding" id="about">
-        <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-md-12 col-12 col-xs">
-                <div class="about-img">
-                    <img src="assets/img/me3.jpg" alt="this-is-me" class="img-thumbnail rounded-bottom-circle m-lg-4 col-xs">
-                </div>
-               </div>
-               <div class="col-lg-8 col-md-12 col-12 ps-lg-3 mt-md-5">
-                <div class="about-text">
-                    <!-- <h2 class="title"><span class="text-warning">MOB</span>ulfa</h2> -->
-                    <p><span class="dropcap">T</span>
-                        hank you for showing interest in viewing this page, A starter in this
-                        field. Creating this page is one of my achievement in developing website,
-                        this may be simple but takes a lot of time for a beginner like me.                             
-                    </p>
-                    <p>
-                        My Fullname is Manuelito Obejero Bulfa, known as on my nick name "Manny". 
-                        Playing instruments like Guitar and Piano are my hobbies. 
-                        A boy born and live in a place where in Fruits and Highland springs reside
-                        the City of Kidapawan part of the Province of North Cotabato Island of Mindanao.
-                    </p>
-                    <p>
-                        I may not good in Designing a Website but I believed that things are getting better when it is being practiced, 
-                        and doing it by heart. Someday I may master it and create more webapplications that are useful in all industry
-                        this is one of my biggest dreams as a starter in web development.
-                    </p>
-                   
-                </div>
-               </div>
-            </div>
         </div>
-    </section>
-    <!--Horizontal Line-->
-      <hr>
-    <!-- Skills Overview -->
-    <section class="skills section-padding" id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-5">
-                        <h2>Skills Overview</h2>
-                        <p style="text-align: justify;">
-                            I may not have enough experience in web developing, but assuring you that you can trust
-                            Me and can be manage in minimal supervision. 
-                            Below is a quick overview of my main technical skill 
-                            sets and tools I use. Want to find out more about my 
-                          experience? <a class="resume" href="resume.html">Check out my online resume.</a> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  
-   
-    <section class="section-padding" id="skilloverview">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-md-12 col-lg-4">
-            <div class="card text-dark bg-light pb-5">
-                <div class="hover-overlay card-body text-center">
-                    <i class="bi bi-file-easel"></i>
-                    <h3 class="card-title">Web Development</h3>
-                   <br>
-                      <div class="w3-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:70%">
-                          <div class="w3-center w3-text-dark">Front End</div>
-                        </div>
-                      </div><br>
-                      <div class="w3-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:50%">
-                          <div class="w3-center w3-text-dark">Back End</div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-md-12 col-lg-4">
-          <div class="card text-dark bg-light pb-5">
-              <div class="card-body text-center">
-                  <i class="bi bi-file-easel"></i>
-                  <h3 class="card-title">Graphic and Media Design</h3>
-                 <br>
-                    <div class="w3-grey w3-round-xlarge w3-small">
-                      <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:60%">
-                        <div class="w3-center w3-text-dark">Photoshop</div>
-                      </div>
-                    </div><br>
-                    <div class="w3-grey w3-round-xlarge w3-small">
-                      <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:50%">
-                        <div class="w3-center w3-text-dark">Sony Vegas</div>
-                      </div>
-                    </div>
-              </div>
-          </div>
       </div>
-      <div class="col-md-12 col-md-12 col-lg-4">
-        <div class="card text-dark bg-light pb-5">
-            <div class="card-body text-center">
-                <i class="bi bi-file-easel"></i>
-                <h3 class="card-title">Programming Skills</h3>
-               <br>
-                  <div class="w3-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:60%">
-                      <div class="w3-center w3-text-dark">PHP</div>
-                    </div>
-                  </div><br>
-                  <div class="w3-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge text-bg-warning" style="width:50%">
-                      <div class="w3-center w3-text-dark">MYSQL</div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-       </div>
-    </div>
-  </section>
+
+
     <footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
