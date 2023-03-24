@@ -8,6 +8,8 @@ body{
 
 nav.navbar a{
     margin-right: 20px;
+}
+#navbarSupportedContent{
     text-transform: uppercase;
 }
 nav.navbar a:hover{
