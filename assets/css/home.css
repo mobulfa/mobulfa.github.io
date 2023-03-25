@@ -260,7 +260,7 @@ nav.navbar a:hover{
     #about img{
         width:300px;
         margin-left:25%;
-        -webkit-filter:sepia(100%)
+        --webkit-filter:sepia(100%)
     }
     .w3-display-container .imgBx{
         margin: 30px;
