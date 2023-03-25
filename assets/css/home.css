@@ -246,6 +246,10 @@ nav.navbar a:hover{
         width:20%;
         margin-top: 2px;
       }
+      #skills h2, #skills p {
+        width: 100%;
+        margin: 10px auto;
+    }
   }
   @media screen and (max-width:1500px) and (min-width:900px){
     div.animated-div{
@@ -253,13 +257,20 @@ nav.navbar a:hover{
         animation: sampanimation 4s;
         margin-top: 30%;
       }
-    /* #about img{
+    #about img{
         width:300px;
         margin-left:25%;
         -webkit-filter:sepia(100%)
-    } */
+    }
+    .w3-display-container .imgBx{
+        margin: 30px;
+    }
+    #skills h2, #skills p {
+        width: 100%;
+        margin: 10px auto;
+    }
   }
-  @media screen and (min-width:690px) and (max-width:850px){
+  @media screen and (min-width:600px) and (max-width:880px){
     #about img{
         width:300px;
         margin-left:10%;
@@ -270,12 +281,19 @@ nav.navbar a:hover{
         animation: sampanimation 4s;
         margin-top: 30%;
       }
+      #skills h2, #skills p {
+        width: 100%;
+        margin: 10px auto;
+    }
   }
   @media screen and (min-width:200px) and (max-width:400px) {
     .w3-display-container .imgBx{
         margin: 30px;
     }
-
+    #skills h2, #skills p {
+        width: 100%;
+        margin: 10px auto;
+    }
     
   }
   
