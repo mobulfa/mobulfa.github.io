@@ -247,7 +247,7 @@ nav.navbar a:hover{
         margin-top: 2px;
       }
   }
-  @media screen and (max-width:1500px) and (min-width:1000px){
+  @media screen and (max-width:1500px) and (min-width:900px){
     div.animated-div{
         width: 100%;
         animation: sampanimation 4s;
@@ -259,7 +259,7 @@ nav.navbar a:hover{
         -webkit-filter:sepia(100%)
     } */
   }
-  @media screen and (max-width:850px){
+  @media screen and (min-width:690px) and (max-width:850px){
     #about img{
         width:300px;
         margin-left:10%;
@@ -271,5 +271,13 @@ nav.navbar a:hover{
         margin-top: 30%;
       }
   }
+  @media screen and (min-width:200px) and (max-width:400px) {
+    .w3-display-container .imgBx{
+        margin: 30px;
+    }
+
+    
+  }
+  
   
 
