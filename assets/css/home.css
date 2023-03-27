@@ -216,6 +216,13 @@ nav.navbar a:hover{
    margin: auto;
    
 }
+footer{
+    margin:50px;
+}
+
+footer.container{
+    background-color: aliceblue;
+}
 
 @media screen and (max-width: 600px) {
 
