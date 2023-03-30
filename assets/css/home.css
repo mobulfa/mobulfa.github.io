@@ -238,7 +238,7 @@ footer.container{
        
       }
       div.animated-div .btn{
-        --bs-btn-font-size: .5em;
+        --bs-btn-font-size: 0.5rem;
       }
       .hero-text h1{
         font-size: small;
@@ -265,7 +265,7 @@ footer.container{
         margin-top: 30%;
       }
       div.animated-div .btn{
-        --bs-btn-font-size: .5em;
+        --bs-btn-font-size: 0.5rem;
       }
     #about img{
         width:300px;
@@ -287,7 +287,7 @@ footer.container{
         --webkit-filter:sepia(100%)
     }
     div.animated-div .btn{
-        --bs-btn-font-size: .5em;
+        --bs-btn-font-size: 0.5rem;
       }
     div.animated-div{
         width: 100%;
@@ -299,12 +299,12 @@ footer.container{
         margin: 10px auto;
     }
   }
-  @media screen and (min-width:200px) and (max-width:400px) {
+  @media screen and (min-width:300px) and (max-width:400px) {
     .w3-display-container .imgBx{
         margin: 30px;
     }
     div.animated-div .btn{
-        --bs-btn-font-size: .5em;
+        --bs-btn-font-size: 0.5rem;
       }
     #skills h2, #skills p {
         width: 100%;
