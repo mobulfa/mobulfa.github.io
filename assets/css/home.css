@@ -264,6 +264,9 @@ footer.container{
         animation: sampanimation 4s;
         margin-top: 30%;
       }
+      div.animated-div .btn{
+        --bs-btn-font-size: .5em;
+      }
     #about img{
         width:300px;
         margin-left:25%;
@@ -283,6 +286,9 @@ footer.container{
         margin-left:10%;
         --webkit-filter:sepia(100%)
     }
+    div.animated-div .btn{
+        --bs-btn-font-size: .5em;
+      }
     div.animated-div{
         width: 100%;
         animation: sampanimation 4s;
@@ -297,6 +303,9 @@ footer.container{
     .w3-display-container .imgBx{
         margin: 30px;
     }
+    div.animated-div .btn{
+        --bs-btn-font-size: .5em;
+      }
     #skills h2, #skills p {
         width: 100%;
         margin: 10px auto;
